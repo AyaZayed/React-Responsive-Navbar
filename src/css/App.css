@@ -2,6 +2,84 @@
   --main-purple: #3c096c;
   --dark-purple: #240046;
   --light-purple: #5a189a;
-  --very-light-purple: #9d4edd;
+  --very-light-purple: #be76f990;
   --white: #fff;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  background-color: var(--main-purple);
+  padding: 0.5rem 2rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .nav-logo {
+  display: flex;
+  align-items: center;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.navbar .nav-logo img {
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+.navbar .nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.navbar .nav-links li {
+  margin-left: 1rem;
+}
+
+
+.navbar .nav-links li a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: .7rem 1rem;
+}
+
+.navbar .nav-links li a:hover {
+  background-color: var(--very-light-purple);
+}
+
+.navbar .nav-links button {
+
+  border: none;
+  padding: .7rem 1.4rem;
+  font-size: 1.2rem;
+  border-radius: 7px;
+  cursor: pointer;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.navbar .nav-links .login-button {
+  background-color: var(--white);
+  color: var(--main-purple);
+}
+
+.navbar .nav-links .signup-button {
+  background-color: #815ac0;
+  color: var(--white);
+}
+
+.navbar .nav-links .signup-button:hover {
+  background-color: #5b2a86;
+}
+
+.navbar .nav-links .login-button:hover {
+  background-color: rgba(255, 255, 255, 0.692);
 }
