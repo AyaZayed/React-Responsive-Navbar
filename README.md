@@ -4,7 +4,8 @@ Navbars are essential components in many applications and learning how to make o
 
 ## Screenshot
 
-![Navbar Screenshot](./src/images/Screenshot.png)
+![Navbar Screenshot](./src/images/Screenshot 1.png)
+![Mobile Navbar Screenshot](./src/images/Screenshot 2.png)
 
 To use this app run these commands:
 
@@ -15,9 +16,9 @@ To use this app run these commands:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Google Fonts
+- Font Awesome
 - React.js
-- Express.js
+- Normalize.css
 
 ## Author
 

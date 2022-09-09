@@ -54,7 +54,6 @@ body {
 }
 
 .navbar .nav-links button {
-
   border: none;
   padding: .7rem 1.4rem;
   font-size: 1.2rem;
@@ -82,4 +81,40 @@ body {
 
 .navbar .nav-links .login-button:hover {
   background-color: rgba(255, 255, 255, 0.692);
+}
+
+.navbar .fa-bars {
+  color: #fff;
+  font-size: 2rem;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar .nav-links {
+    display: none;
+  }
+
+  .navbar .nav-links.expanded {
+    display: block;
+    flex-direction: column;
+    position: absolute;
+    top: 4rem;
+    right: 0;
+    background-color: var(--main-purple);
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar .nav-links.expanded li {
+    margin: 1.3rem 0;
+  }
+
+  .navbar .nav-links.expanded button {
+    width: 23%;
+  }
+
+  .navbar .fa-bars {
+    display: block;
+    cursor: pointer;
+  }
 }
