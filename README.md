@@ -4,8 +4,8 @@ Navbars are essential components in many applications and learning how to make o
 
 ## Screenshot
 
-![Navbar Screenshot](./src/images/Screenshot 1.png)
-![Mobile Navbar Screenshot](./src/images/Screenshot 2.png)
+![Navbar Screenshot](./src/images/Screenshot%201.png)
+![Mobile Navbar Screenshot](./src/images/Screenshot%202.png)
 
 To use this app run these commands:
 
